@@ -6,7 +6,6 @@ function insertPersons(persons) {
 }
 
 function getPersonsHtml (persons) {
-    //TODO - get all persons (using array.map)
     return getPersonHtml(persons[0]) + getPersonHtml(persons[1]);
 }
 
