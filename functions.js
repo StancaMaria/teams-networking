@@ -2,23 +2,21 @@ console.log('test script');
 
 function insertPersons(persons) {
     const tbody = document.querySelector('#list tbody');
-    const firstName = data.firstName;
-    const lastName = data.lastName;
-    const gitHub = data.gitHub;
+    tbody.innerHTML = getPersonsHtml(persons); ;
+}
 
-    const obj = {
-        firstName,
-        lastName: lastName,
-        gitHub: gitHub
-   }
+function getPersonsHtml (persons) {
+    //TODO - get all persons (using array.map)
+    return getPersonHtml(persons[0]) + getPersonHtml(persons[1]);
+}
 
-console.log({ firstName, lastName, gitHub });
-
-tbody.innerHTML = `<tr>
-    <td>Stanca</td>
-    <td>Stirb</td>
-    <td><a target="_blank" href="https://github.com/StancaMaria">Ghithub</a></td>
-</tr>`;
+function getPersonHtml (person) {
+    const gitHub = person.gitHub;
+    return `<tr>
+        <td>${person.firstName}</td>
+        <td>${person.lastName}</td>
+        <td><a target="_blank" href="https://github.com/${gitHub}">Github</a></td>
+    </tr>`;
 }
 
 fetch('team.json')
