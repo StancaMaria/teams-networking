@@ -1,5 +1,3 @@
-console.log('test script');
-
 function insertPersons(persons) {
     const tbody = document.querySelector('#list tbody');
     tbody.innerHTML = getPersonsHtml(persons);
@@ -18,8 +16,28 @@ function getPersonHtml (person) {
     </tr>`;
 }
 
+let allPersons = [];
+
 fetch('team.json')
-    .then(res => res.json())
+  .then(res => res.json())
     .then(data => {
+        allPersons = data;
         insertPersons(data);
+  });
+
+function searchPersons(text) {
+    console.warn("search", text, allPersons);
+    return allPersons.filter(person => {
+        console.info(person.firstName);
+        return person.firstName == text;
     });
+  }
+    
+const search = document.getElementById('search');
+search.addEventListener("input", e => {
+    const text = e.target.value;
+  
+    const filtrare = searchPersons(text);
+
+    insertPersons(filtrare)
+})

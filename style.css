@@ -7,9 +7,9 @@
     color: black;
 }
 #list th, #list td{
-    border: 1px solid #29a7e1;
+    border: 1px solid lavenderblush;
     padding: 5px;
 }
 #list tr:nth-child(even) {
-    background-color: beige;
+    background-color: ivory;
 }
