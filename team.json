@@ -2,11 +2,16 @@
     {
      "firstName":"Stanca",
      "lastName":"Stirb",
-     "gitHub":"gitHub"
+     "gitHub":"StancaMaria"
     },
     {
     "firstName":"Andrei",
     "lastName":"Ille",
-    "gitHub":"gitHub"
+    "gitHub":"illeandrei"
+    },
+    {
+    "firstName":"Nicolae",
+    "lastName":"Matei",
+    "gitHub":"nmatei"
     }
 ]
