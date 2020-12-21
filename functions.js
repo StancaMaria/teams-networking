@@ -2,7 +2,8 @@ console.log('test script');
 
 function insertPersons(persons) {
     const tbody = document.querySelector('#list tbody');
-    tbody.innerHTML = getPersonsHtml(persons); ;
+    console.log(`persons`, persons)
+    tbody.innerHTML = getPersonsHtml(persons)
 }
 
 function getPersonsHtml (persons) {
