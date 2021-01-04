@@ -1,33 +1,38 @@
 [
     {
+     "id": "a123",
      "firstName":"Stanca",
      "lastName":"Stirb",
      "gitHub":"StancaMaria"
     },
     {
+    "id": "b332",
     "firstName":"Andrei",
     "lastName":"Ille",
     "gitHub":"illeandrei"
     },
     {
+    "id": "c672",
     "firstName":"Nicolae",
     "lastName":"Matei",
     "gitHub":"nmatei"
     },
     {
+    "id": "d510",
     "firstName":"Rares",
     "lastName":"Roman",
     "gitHub":"romanrares"
     },
     {
+    "id": "e625",
     "firstName":"Oana",
     "lastName":"Coman",
     "gitHub":"comanoana"
     },
     {
+    "id": "f410",
     "firstName":"Cristi",
     "lastName":"Cozma",
     "gitHub":"cristicozma"
-    },
-    {"firstName":"s","lastName":"s","gitHub":"s"}
+    }
 ]
