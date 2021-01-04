@@ -4,12 +4,6 @@
 <head>
     <title>Teams Networking</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-          background-color: mintcream;
-        }
-        </style>
-</head>
 
 <body>
     <h1>Teams Networking</h1>
@@ -20,11 +14,30 @@
     <table id="list">
 
         <thead>
+            <tr>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Link</th>
+            <th></th>
+            </tr>
         </thead>
         <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Enter first name" name="firstName">
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter last name" name="lastName">
+                </td>
+                <td>
+                    <input type="text" placeholder="GitHub account" name="gitHub">
+                </td>
+                <td>
+                    <button>Save</button>
+                </td>
+            </tr>
+        </tfoot>
     </table>
     <script src="functions.js"></script>
 </body>

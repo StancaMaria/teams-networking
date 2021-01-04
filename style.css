@@ -1,13 +1,14 @@
+
 #list{
     border-collapse: collapse;
     width: 100%;
 }
 #list th{
-    background-color: lavenderblush;
-    color: black;
+    background-color: black;
+    color: white;
 }
 #list th, #list td{
-    border: 1px solid lavenderblush;
+    border: 1px solid blanchedalmond;
     padding: 5px;
 }
 #list tr:nth-child(even) {
