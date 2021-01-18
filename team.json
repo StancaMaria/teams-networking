@@ -16,23 +16,4 @@
     "firstName":"Nicolae",
     "lastName":"Matei",
     "gitHub":"nmatei"
-    },
-    {
-    "id": "d510",
-    "firstName":"Rares",
-    "lastName":"Roman",
-    "gitHub":"romanrares"
-    },
-    {
-    "id": "e625",
-    "firstName":"Oana",
-    "lastName":"Coman",
-    "gitHub":"comanoana"
-    },
-    {
-    "id": "f410",
-    "firstName":"Cristi",
-    "lastName":"Cozma",
-    "gitHub":"cristicozma"
     }
-]
