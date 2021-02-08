@@ -1,18 +1,18 @@
 const API = {
     CREATE: {
-        URL: "http://localhost:3000/teams-json/create",
+        URL: "http://localhost:3000/teams/create",
         METHOD: "POST"
     },
     READ: {
-        URL: "http://localhost:3000/teams-json",
+        URL: "http://localhost:3000/teams",
         METHOD: "GET"
     },
     UPDATE: {
-        URL: "http://localhost:3000/teams-json/update",
+        URL: "http://localhost:3000/teams/update",
         METHOD: "PUT"
     },
     DELETE: {
-        URL: "http://localhost:3000/teams-json/delete",
+        URL: "http://localhost:3000/teams/delete",
         METHOD: "DELETE"
     }
 };
